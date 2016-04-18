@@ -29,7 +29,7 @@ for filename in os.listdir('.'):
 
         #Resize the image
         print('Resizing %s...' % (filename))
-    im = im.resize((width, height))      
+        im = im.resize((width, height))      
 
     #TODO: Add the logo.
     print('Adding logo to %s...' % (filename))
